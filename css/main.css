@@ -74,7 +74,7 @@ body {
 .cities {
     width: 1000px;
     margin: 0 auto;
-
+    padding-bottom: 100px;
 }
 .cities li {
     display: flex;
@@ -96,4 +96,65 @@ body {
     font-size: 15px;
     text-align: center;
     color: #ccc; 
+}
+
+/* .cities_02 */
+.cities_02 {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    /* 플렉스는 한단계상위계층에 넣음 */
+    justify-content: space-between;
+    /* 자동간격잡기 */
+    margin-bottom: 100px;
+    /* 마진이나 패딩이나 상관없음 그냥 시티 2와 3사이 간격 아래 띄우기 */
+}
+.cities_02 li {
+    width: 310px;
+}
+.cities_02 .text h3 {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    /* 폰트크기 텍스트 위 아래 띄우기 */
+}
+
+/* cities_03 */
+.cities_03 {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cities_03 li {
+    text-align: center;
+}
+.cities_03 .photo {
+    background-color: #ddd;
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    border-radius: 130px;
+    /* 사각형 크기의(width) 반 이상 */
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* 배경이미지 넣기 */
+}
+.cities_03 .photo.london {
+    background-image: url("../images/london_b.jpg");
+}
+.cities_03 .photo.paris {
+    background-image: url("../images/paris_b.jpg");
+}
+.cities_03 .photo.tokyo {
+    background-image: url("../images/tokyo_b.jpg");
+}
+.cities_03 .text {
+    width: 260px;
+    margin: 0 auto;
+}
+.cities_03 .text h3 {
+    margin: 8px 0 16px 0;
 }
