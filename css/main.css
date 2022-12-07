@@ -140,10 +140,11 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    /* 배경이미지 넣기 */
+    /* 배경이미지 설정 전체 설정 */
 }
 .cities_03 .photo.london {
     background-image: url("../images/london_b.jpg");
+    /* 배경이미지 설정 각각 이미지 넣어주기 */
 }
 .cities_03 .photo.paris {
     background-image: url("../images/paris_b.jpg");
